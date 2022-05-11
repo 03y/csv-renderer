@@ -1,8 +1,3 @@
-// Can you help me with my homework?
-// I need to create a website with HTML and JavaScript.
-// The user should be able to upload a CSV file.
-// The CSV file should then be parsed and the data should be displayed in a HTML table on the page.
-
 function upload() {
     var fileUpload = document.getElementById("fileUpload");
     document.getElementById("name").innerHTML = fileUpload.files[0].name;
@@ -16,7 +11,7 @@ function upload() {
                 var row = table.insertRow(-1);
                 for (var j = 0; j < cells.length; j++) {
                     var cell = row.insertCell(-1);
-                    cell.innerHTML = cells[j].replace(/\"/g, "");   // learning vim has payed off :)
+                    cell.innerHTML = cells[j].replace(/\"/g, "");
                 }
             }
         }
