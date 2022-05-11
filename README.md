@@ -15,3 +15,11 @@ xdg-open csv-renderer
 git clone https://github.com/03y/csv-renderer.git
 Start-Process "csv-renderer/index.html"
 ```
+
+## Testing
+There are cypress test runs included, which ensure that the project is working. To run these follow the instructions below. You will need to have nodejs and npm installed.
+```
+npm install cypress
+npm install cypress-file-upload
+npx cypress open
+```
