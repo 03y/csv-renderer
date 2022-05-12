@@ -22,5 +22,5 @@ There are cypress test runs included, which ensure that the project is working. 
 npm install cypress
 npm install cypress-file-upload
 npx cypress run -r spec # for terminal
-npm cypress open # for gui
+npx cypress open # for gui
 ```
